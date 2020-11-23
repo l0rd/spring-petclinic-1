@@ -1,5 +1,12 @@
 # Spring Pet Clinic and OpenShift
 
+## Contributing
+
+To contribute to that project just click on the following link
+
+[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://codeready-workspaces.apps.mloriedo-che-devex.devcluster.openshift.com/f?url=https://github.com/l0rd/spring-petclinic-1)
+
+
 ## Localhost Development
 
 ```
