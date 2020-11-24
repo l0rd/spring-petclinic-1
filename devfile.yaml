@@ -1,0 +1,7 @@
+apiVersion: 1.0.0
+metadata:
+  generateName: petclinic
+components:
+  - id: redhat/java11/latest
+    type: chePlugin
+    alias: java
