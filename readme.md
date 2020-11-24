@@ -1,5 +1,12 @@
 # Spring Pet Clinic and OpenShift
 
+## Contributing
+
+Contributing to Spring Pet Clinic is simpler now.
+
+Click here to start a fully functional dev environment in your browser ⇒  [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://codeready-workspaces.apps.mloriedo-che-devex.devcluster.openshift.com/f?url=https://github.com/l0rd/outyet)
+
+
 ## Localhost Development
 
 ```
