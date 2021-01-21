@@ -6,7 +6,7 @@ components:
    id: redhat/java11/latest
    alias: java
  - type: dockerimage
-   alias: dev-tooling
+   alias: devtooling
    image: quay.io/eclipse/che-java8-maven:nightly
  - type: dockerimage
    alias: mysql
