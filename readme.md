@@ -4,7 +4,7 @@
 
 Contributing to Spring Pet Clinic is simpler now.
 
-Click here to start a fully functional dev environment in your browser ⇒  [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://codeready-workspaces.apps.mloriedo-che-devex.devcluster.openshift.com/f?url=https://github.com/l0rd/outyet)
+[![Contribute](https://img.shields.io/badge/che-workspace-orange)](https://che-workspaces-server.192.168.64.33.nip.io/f?url=https://github.com/l0rd/spring-petclinic-1/)
 
 
 ## Localhost Development
