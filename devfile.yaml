@@ -2,15 +2,15 @@ apiVersion: 1.0.0
 metadata:
   generateName: petclinic
 components:
- - type: chePlugin
-   id: redhat/java11/latest
-   alias: java
- - type: dockerimage
-   alias: devtooling
-   image: quay.io/eclipse/che-java8-maven:nightly
- - type: dockerimage
-   alias: mysql
-   image: docker.io/centos/mysql-57-centos7
+  - type: chePlugin
+    id: redhat/java11/latest
+    alias: java
+  - type: dockerimage
+    alias: devtooling
+    image: quay.io/eclipse/che-java8-maven:nightly
+  - type: dockerimage
+    alias: mysql
+    image: docker.io/centos/mysql-57-centos7
 commands:
   - name: maven build
     actions:
