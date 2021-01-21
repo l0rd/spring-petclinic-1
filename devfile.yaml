@@ -8,9 +8,11 @@ components:
   - type: dockerimage
     alias: devtooling
     image: quay.io/eclipse/che-java8-maven:nightly
+    memoryLimit: 512Mi
   - type: dockerimage
     alias: mysql
     image: docker.io/centos/mysql-57-centos7
+    memoryLimit: 512Mi
 commands:
   - name: maven build
     actions:
