@@ -15,6 +15,6 @@ commands:
   - name: maven build
     actions:
       - type: exec
-        component: dev-tooling
+        component: devtooling
         command: "mvn clean install"
         workdir: "${CHE_PROJECTS_ROOT}/spring-petclinic"
