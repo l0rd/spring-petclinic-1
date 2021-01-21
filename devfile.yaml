@@ -11,8 +11,24 @@ components:
     memoryLimit: 512Mi
   - type: dockerimage
     alias: mysql
-    image: docker.io/centos/mysql-57-centos7
-    memoryLimit: 512Mi
+    image: quay.io/eclipse/che--centos--mysql-57-centos7:latest-e08ee4d43b7356607685b69bde6335e27cf20c020f345b6c6c59400183882764
+    env:
+      - name: MYSQL_USER
+        value: petclinic
+      - name: MYSQL_PASSWORD
+        value: petclinic
+      - name: MYSQL_DATABASE
+        value: petclinic
+      - name: PS1
+        value: $(echo ${0})\\$
+    memoryLimit: 300Mi
+    endpoints:
+      - name: 'db'
+        port: 3306
+        attributes:
+          discoverable: "true"
+          public: "false"
+    mountSources: true
 commands:
   - name: maven build
     actions:
